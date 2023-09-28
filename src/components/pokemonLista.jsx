@@ -27,7 +27,7 @@ function PokemonList() {
   }, []);
   return (
     <div className="Principal">
-      <h1 className="bx-tada-hover">First Generation Pokemons</h1>
+      <h1 className="bx-tada-hover">First Generation Pokemon</h1>
       <div className="contenedor">
         {pokemonData.map((pokemon) => (
           <div className="pokemonCard grid-item" key={pokemon.id}>
